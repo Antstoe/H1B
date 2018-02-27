@@ -7,4 +7,11 @@ EMPLOYER: Name of employer submitting the H1-B application. Used in comparing sa
  TITLE: Title of the job is how I will be able to find the most frequent and most popular jobs within a State.
 WAGE: The prevailing wage for a job position is based on an employer's the minimum requirement for a position. This column will be one of the key metrics to determine desirability. 
 GEO_STATE: The foreign worker’s intended area of employment. Using information here I will be able to find the relationship between State and H1B holders and the type of Jobs H1B holders will most likely be getting. 
-	The data set will include 1048575 applicants who were eligible for H-1B and will contain over hundreds of companies who have sponsored the H1-B. Ultimately my app is to find out which state has the most H1B visa holders, what sort of job is the most popular within a state, and how much are H1B workers being paid in these states.
+	The data set will include 1048575 applicants who were eligible for H-1B and will contain over hundreds of companies who have sponsored the H1-B. Ultimately my app is to find out 
+	Top 100 most applied jobs,  their salary, their locations, the cost of living index within those areas, and whether they are STEM or others.
+I’m going to find the top 100 most popular job with a barchart, with Job field on the X axis, and the total number of accepted H1-B applicants for each job field. Each field will have 3 bars with different colors indicating the year of the data. Through this I hope to see what is the most popular type of job that H1-B visa applicants are accepted for. It’s been hypothesised that STEM majors usually have a much higher chance of being accepted.
+Next I want to see if STEM majors influence acceptance of H1-B visa applicants.
+After I want to find the salary of each job to see which job fields pay the most. At the same time I want to see if salary influences acceptances of H1-B visa applicants.
+After I want to find the most popular job and their locations. I’m going to first find the location of each job field and their location with a shiny webapp. I will modify the app so that it uses geo location of longitude and latitude instead of zip code. https://shiny.rstudio.com/gallery/superzip-example.html
+Lastly I want to find the relationship between cost of living and the wage offered for the top 100 jobs. Using the top 20 as a small sample to represent the larger. 
+
